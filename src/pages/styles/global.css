@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292727;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+  color: #2EEBAA;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+h2{
+    margin-bottom: 0.5rem;
+    color: #2EEBAA;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+
+}
+
+.li {
+      color: rgb(255, 255, 255);
+
+}
