@@ -3,22 +3,28 @@
 	import '@fontsource/inter/400.css';
 	import '@fontsource/inter/700.css';
 	import '@fontsource/inter/900.css';
-
+	import Nav from "./comp/nav.astro";
+	import Button from "./comp/button.astro";
 
 ---
 
 
+
+
 <MainLayout title="About me">
-	<h1>About Me</h1>
-	<p class="description">I am a software developer focusing on reliability and security,</p>
+	<Nav />
 
-	<h2>My Skills</h2>
-	
-	<h3 class="python">Python</h3>
-	<h3 class="SQL">MySQL</h3>
-	<h3 class="Linux">Linux</h3>
+	<p class="description">Hi ik ben een Fullstack developer.
+		Met een focus op veiligheid en stabiliteit </p>
 
-	<h2>Contact me</h2>
+
+	<div class="herobuttn">
+		<Button text="Contact me" href="contact.astro" />
+	</div>
+
+	<div class="button">
+		<Button text="Skills" href="contact.astro" />
+	</div>
 
 </MainLayout>
 

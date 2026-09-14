@@ -1,0 +1,31 @@
+
+
+.herobuttn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    background: #2EEBAA;
+    color: #ffffff;
+    box-shadow: 0 0 15px #2EEBAA;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+    
+
+}
+
+.button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffffff;
+    background: #d7ddea;
+    text-decoration: none;
+    display: inline-block;
+
+}
