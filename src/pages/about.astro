@@ -1,10 +1,29 @@
 ---
-	import  MainLayout  from "./layouts/MainLayout.astro";
+	import  MainLayout  from "./layouts/MainLayout.astro";	
 	import '@fontsource/inter/400.css';
 	import '@fontsource/inter/700.css';
+	import '@fontsource/inter/900.css';
+	import Nav from './comp/nav.astro';
+	import sql from './comp/mysql_logo_2EEBAA.png';
+	import { Image } from 'astro:assets';
+	import python from './comp/python_logo_2EEBAA.png';
+	import linux from './comp/linux_logo_2EEBAA.png';
 
 ---
-<MainLayout title="About" description="My About Page">
-	<h1>About Me</h1>
-	<p>Hi from About</p>
+
+<MainLayout title="About me">
+	<Nav />
+
+	<p>Hi, ik ben Ana! Ik ben Software Development-student en vind het vooral interessant om bezig te zijn met cybersecurity, backend en hardware.
+		 Ik vind het belangrijk dat systemen betrouwbaar en veilig zijn en wil hier graag  meer over leren. Ik werk graag zelfstandig, maar vind het ook leuk om samen met anderen aan een project te werken. 
+		 Ik ben nieuwsgierig en leer graag nieuwe dingen. Ik ben op zoek naar een plek waar ik mezelf verder kan ontwikkelen en nieuwe vaardigheden kan opdoen binnen Software.
+	</p>
+
+ <Image src={sql} alt="MySQL logo"/>
+ <Image src={python} alt="Python logo"/>
+ <Image src={linux} alt="Linux logo"/>
 </MainLayout>
+
+
+
+

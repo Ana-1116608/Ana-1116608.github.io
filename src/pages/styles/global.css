@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #292727;
+  background-color: #000000;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   padding: 1rem;
@@ -36,21 +36,24 @@ h2{
 
 }
 
-.python{
-  color: rgb(255, 255, 255);
+.Python{
+  color: #2EEBAA;
   font-family: 'inter', sans-serif;
-  font-weight: 200;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .SQL{
-  color: rgb(255, 255, 255);
+  color: #2EEBAA;
   font-family: 'inter', sans-serif;
-  font-weight: 200;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .Linux{
-  color: rgb(255, 255, 255);
+color: #2EEBAA;
   font-family: 'inter', sans-serif;
-  font-weight: 200;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
